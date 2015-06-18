@@ -4,7 +4,9 @@ html(lang="es")
 		meta(charset="utf-8")
 		title Acceso al dispositivo
 	body
-		canvas(id="canvas" width="600" height="600")
+		canvas(id="canvas" width="600" height="600" style="border:solid black 1px;") Your browser does not support Canvas
+		br
 		button(onclick="startup()") Inicializar
+		br
 		pre(id="log" style="border: 1px solid #ccc;")
 		script(src="touch.js")
