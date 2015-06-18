@@ -1,7 +1,8 @@
 (
-	var ongoingTouches = new Array();
+	
 
 	function startup() {
+	  ongoingTouches = new Array();
 	  var el = document.getElementsByTagName("canvas")[0];
 	  el.addEventListener("touchstart", handleStart, false);
 	  el.addEventListener("touchend", handleEnd, false);
