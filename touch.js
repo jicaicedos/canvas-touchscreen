@@ -1,6 +1,4 @@
 (
-	
-
 	function startup() {
 	  ongoingTouches = new Array();
 	  var el = document.getElementsByTagName("canvas")[0];
